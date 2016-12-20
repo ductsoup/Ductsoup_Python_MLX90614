@@ -18,7 +18,7 @@ $sudo python setup.py install
 $cd ~
 ```
 
-To enable I2C repeated start conditions on Raspberry Pi use the following command. You might also want to consider adding this to your /etc/rc.local file.
+To enable I2C repeated start conditions on Raspberry Pi use the following command. You might also want to consider adding something like this to your /etc/rc.local file so you don't have to worry about it between reboots.
 
 ```
 $sudo su -c 'echo "Y" > /sys/module/i2c_bcm2708/parameters/combined'
