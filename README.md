@@ -2,6 +2,8 @@
 
 This Python driver allows you to read data from an [MLX90614](https://www.adafruit.com/products/1747) on a Raspberry Pi.
 
+The intent is to mount the device in a weatherproof enclosure to determine an estimate of the cloud base height.
+
 ## Requirements
 
 This driver requires that you have previously installed the
