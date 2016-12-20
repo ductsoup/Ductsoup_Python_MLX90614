@@ -15,12 +15,20 @@ $sudo apt-get install build-essential python-pip python-dev python-smbus git i2c
 $git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
 $cd Adafruit_Python_GPIO
 $sudo python setup.py install
+$cd ~
 ```
 
 To enable I2C repeated start conditions on Raspberry Pi use the following command. You might also want to consider adding this to your /etc/rc.local file.
 
 ```
 $sudo su -c 'echo "Y" > /sys/module/i2c_bcm2708/parameters/combined'
+```
+Finally, install this package.
+
+```
+$git clone https://github.com/ductsoup/Ductsoup_Python_MLX90614.git
+$cd Ductsoup_Python_MLX90614
+$sudo python setup.py install
 ```
 
 ## Usage
