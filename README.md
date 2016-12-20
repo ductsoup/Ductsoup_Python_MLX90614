@@ -1,6 +1,6 @@
 # Ductsoup_Python_MLX90614
 
-This Python driver allows you to read data from an [MLX90614](https://www.adafruit.com/products/1747) on a Raspberry Pi. The intent is to mount the device in a weatherproof enclosure and determine an estimate of the cloud base height.
+This Python driver allows you to read data from an [MLX90614](https://www.adafruit.com/products/1747) on a Raspberry Pi. The intent is to mount the device in a weatherproof enclosure in order to determine an estimate of the cloud base height.
 
 ## Requirements
 
