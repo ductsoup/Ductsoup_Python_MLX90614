@@ -1,6 +1,6 @@
 # Ductsoup_Python_MLX90614
 
-This Python driver allows you to read data from the [Adafruit MLX90614](https://www.adafruit.com/products/1747) on a Raspberry Pi.
+This Python driver allows you to read data from an [MLX90614](https://www.adafruit.com/products/1747) on a Raspberry Pi.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ $cd Adafruit_Python_GPIO
 $sudo python setup.py install
 ```
 
-To enable I2C repeated start conditions on Raspberry Pi use the following command:
+To enable I2C repeated start conditions on Raspberry Pi use the following command. You might also want to consider adding this to your /etc/rc.local file.
 
 ```
 $sudo su -c 'echo "Y" > /sys/module/i2c_bcm2708/parameters/combined'
@@ -57,7 +57,7 @@ This driver is lightly based on the examples from [Adafruit_BMP](https://github.
 by Tony DiCola (Adafruit Industries) and [Adafruit MLX] (https://github.com/adafruit/Adafruit-MLX90614-Library)
 by Limor Fried/Ladyada (also Adafruit Industries).
 
-# MIT License
+## MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
